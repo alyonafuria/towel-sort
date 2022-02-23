@@ -1,3 +1,6 @@
+
+// You should implement your task here.
+
 module.exports = function towelSort (matrix) {
     if (matrix === undefined) {
         return [];
@@ -8,7 +11,6 @@ module.exports = function towelSort (matrix) {
                 copyMatrix[i].reverse();
             }
         };
-
-        return Array = copyMatrix.join(',');
-    };
+        return [].concat(...copyMatrix);
+    }
 }
